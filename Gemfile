@@ -41,7 +41,17 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
+gem 'simple_form', '~> 4.1.0'
+
 group :development do
+  # Improve error readability
+  gem 'better_errors', '~> 2.5'
+
+  gem 'guard', '~> 2.15.0'
+  gem 'guard-livereload', '~> 2.5.2', require: false
+
+  # Bulma CSS Framework
+  gem 'bulma-rails', '~> 0.7.2'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
   gem 'web-console', '>= 3.3.0'
   gem 'listen', '>= 3.0.5', '< 3.2'

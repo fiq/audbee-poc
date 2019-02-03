@@ -1,11 +1,11 @@
-<h1 class="title">Audbees</h1>
+<h1 class="title">Here are the latest audbees!</h1>
 <section>
     <div class="container"> 
         <% @posts.each do |post| %>
             <div class="card">
                 <div class="card-content">
-                    <div class="media">
-                        <p class="title is-4"><%= link_to post.title, post %> </p>
+                    <div class="media-content">
+                        <p class="title is-4 has-text-danger"><%= link_to post.title, post %> </p>
                     </div>
                 </div>
                 <div class="card-content">

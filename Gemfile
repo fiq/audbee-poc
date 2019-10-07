@@ -41,7 +41,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
-gem 'simple_form', '~> 4.1.0'
+gem 'simple_form', '~> 5.0.0'
 
 group :development do
   # Improve error readability

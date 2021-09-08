@@ -45,7 +45,7 @@ gem 'simple_form', '~> 4.1.0'
 
 group :development do
   # Improve error readability
-  gem 'better_errors', '~> 2.5'
+  gem 'better_errors', '~> 2.8'
 
   gem 'guard', '~> 2.15.0'
   gem 'guard-livereload', '~> 2.5.2', require: false
